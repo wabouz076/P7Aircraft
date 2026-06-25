@@ -1,18 +1,51 @@
 # SolidWorks Commercial Aircraft — Full Assembly
 
-**MEng Mechanical Engineering &nbsp;·&nbsp; University of Sussex**
-
-![SolidWorks](https://img.shields.io/badge/SolidWorks-Assembly-red?style=flat-square)
-![Motion](https://img.shields.io/badge/SolidWorks-Motion-orange?style=flat-square)
-
-Fully articulated commercial passenger aircraft modelled in SolidWorks. The assembly includes detailed jet engine sub-assemblies and a retractable landing gear mechanism with realistic retraction geometry and animated deployment.
+MEng Mechanical Engineering · University of Sussex  
+Software: SolidWorks 2024 · SolidWorks Motion
 
 ---
 
-## Overview
+Fully articulated commercial passenger aircraft built in SolidWorks. The model includes detailed turbofan engine sub-assemblies, a retractable main and nose landing gear mechanism with realistic retraction geometry, and a complete fuselage-wing-tail assembly with all surfaces and fairings. SolidWorks Motion was used to animate the landing gear deployment and retraction sequence.
 
-The aircraft was built top-down — fuselage, wing surfaces, tail, nacelles, and fairings modelled as individual parts and assembled with full constraints. Jet engine assemblies (fan, nacelle, pylon) are mounted under wing as sub-assemblies. The main and nose landing gear are modelled as mechanisms, with SolidWorks Motion used to animate the retraction sequence.
+![Assembly Preview](preview.png)
+
+## Key Specifications
+
+| Parameter | Value |
+|---|---|
+| Wingspan | [X] mm |
+| Fuselage length | [X] mm |
+| Engine nacelle diameter | [X] mm |
+| Fan diameter | [X] mm |
+| Main gear stroke | [X] mm |
+| Nose gear stroke | [X] mm |
+| Retraction axis angle | [X]° |
+| Total parts | [X] individual SLDPRT files |
+| Total sub-assemblies | [X] SLDASM files |
+
+## Repository
+
+```
+P7Aircraft/
+├── Aircraft_Assembly.SLDASM
+├── Fuselage.SLDPRT
+├── Wing_Left.SLDPRT
+├── Wing_Right.SLDPRT
+├── HorizontalStabiliser.SLDPRT
+├── VerticalStabiliser.SLDPRT
+├── Engine_Assembly.SLDASM
+│   ├── Nacelle.SLDPRT
+│   ├── Fan.SLDPRT
+│   └── Pylon.SLDPRT
+├── LandingGear_Main.SLDASM
+│   ├── MainStrut.SLDPRT
+│   ├── Wheel_Main.SLDPRT
+│   └── ActuationArm.SLDPRT
+└── LandingGear_Nose.SLDASM
+    ├── NoseStrut.SLDPRT
+    └── Wheel_Nose.SLDPRT
+```
 
 ## Tools
 
-SolidWorks &nbsp;·&nbsp; SolidWorks Motion &nbsp;·&nbsp; Top-down Assembly Design
+SolidWorks 2024 · SolidWorks Motion · Top-down Assembly Design
